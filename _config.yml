@@ -1,8 +1,0 @@
-theme: minima
-title: DriftVT
-description: A minimalistic blog about Virginia Tech Football
-baseurl: "/Blog" # the subpath of your site, e.g., /Blog
-url: "https://driftvt.github.io" # the base hostname & protocol for your site
-
-# Optional: Permalinks configuration
-permalink: /:categories/:year/:month/:day/:title/

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DriftVT</title>
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+
+  <header>
+    <h1><a href="../index.html">DriftVT</a></h1>
+  </header>
+  <button id="dark-mode-toggle">Toggle Dark Mode</button>
+  
+  
+  <main>
+    <article>
+      <h2>What is the purpose of this blog?</h2>
+      <p class="post-meta">December 29, 2024 • 3 min read</p>
+      <p>
+        I’ve been wanting a place to dump my thoughts for a long time, and it seems like this would be the place to do it. Who knows what Twitter/X will be in the future, and it’s a good possibility that all my work on there might go to waste. Here, I can spew all of my Virginia Tech football thoughts into the void for anyone to read. And to be honest, I’m not expecting anyone to read any of this stuff.
+      </p>
+      <br>
+      <p>
+        My content doesn’t necessarily have a specific place in society. I am not the most analytical, although I will do deep dives and bring the data. It’s not the truth either. I am not directly affiliated with the school or have access to insider information. Everything on here is researched by me, and sometimes I’ll be straight up wrong. It’s not roll-on-the-floor-laughing funny either, although I will definitely laugh at the flaws of our football program to keep myself going. More than anything else, this blog, like my Twitter page and my personality on VT4L (formerly Don V Fridays), will be me as a fan, learning just as everyone else does.
+      </p>
+      <br>
+    <p>
+        Football is a complex sport. Not only are there 22 individual players on the field at one time with a different job, but there are also typically over 100 other people on each sideline with a specific role. So how do we consume this beast? That’s my thought process. We, as the consumer, don’t know what plays are being called. We don’t know what is being said in one-on-one conversations between positional coaches and players. We don’t know what the head coach says to players before the game. We don’t know the struggles the coaches’ wives go through as their husbands spend thousands of hours a year with the football team. All we see is the end result. And we judge that end result.
+    </p>
+    <br>
+    <p>
+        The point I am getting at is that I don’t have answers to this thing we love, called the game of football. In this case, <strong>Virginia Tech Football</strong>. But, I will always try to find the middle ground. The <strong>truth</strong> within the <em>chaos</em> of football consumption.
+    </p>
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 @DriftVT</p>
+  </footer>
+
+   <!-- Dark Mode Script -->
+   <script>
+    // On page load, read the storedDarkMode setting
+    const storedDarkMode = localStorage.getItem('darkMode');
+    if (storedDarkMode === 'true') {
+      document.body.classList.add('dark-mode');
+    }
+    // Get the toggle button
+    const darkModeToggle = document.getElementById('dark-mode-toggle');
+    // Attach click event
+    darkModeToggle.addEventListener('click', () => {
+      // Toggle the class
+      document.body.classList.toggle('dark-mode');
+      // Save the new preference
+      const isDarkModeOn = document.body.classList.contains('dark-mode');
+      localStorage.setItem('darkMode', isDarkModeOn);
+    });
+  </script>
+  
+</body>
+</html>

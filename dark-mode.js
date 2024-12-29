@@ -10,6 +10,7 @@ const darkModeToggle = document.getElementById('dark-mode-toggle');
 // If the button exists on this page, attach a click event
 if (darkModeToggle) {
   darkModeToggle.addEventListener('click', () => {
+
     // Toggle the class
     document.body.classList.toggle('dark-mode');
 
