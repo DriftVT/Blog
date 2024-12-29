@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>{{ page.title }} | DriftVT</title>
+  <link rel="stylesheet" href="{{ "/Blog/styles.css" | relative_url }}" />
+</head>
+<body>
+
+  <!-- Header / Navigation -->
+  <header>
+    <h1><a href="{{ "/Blog/index.html" | relative_url }}">DriftVT</a></h1>
+    <img src="{{ "/Blog/Images/DriftVT.jpeg" | relative_url }}" style="width:128px;height:128px;" alt="DriftVT Logo" />
+
+    <!-- Dark Mode Toggle Button -->
+    <button id="dark-mode-toggle">Toggle Dark Mode</button>
+  </header>
+
+  <!-- Blog Post Content -->
+  <main>
+    {{ content }}
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 @DriftVT</p>
+  </footer>
+
+  <!-- Dark Mode Script -->
+  <script src="{{ "/Blog/dark-mode.js" | relative_url }}"></script>
+
+</body>
+</html>
