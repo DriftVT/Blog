@@ -4,7 +4,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 /* BODY - Light Mode by Default */
 body {
   font-family: sans-serif;
@@ -15,26 +14,21 @@ body {
   margin: 2rem auto;
   padding: 0 1rem;
 }
-
 /* Header */
 header {
   margin-bottom: 2rem;
 }
-
 header h1 {
   font-size: 2rem;
   margin-bottom: 0.5rem;
 }
-
 header a {
   text-decoration: none;
   color: #630031;
 }
-
 header a:hover {
   color: #CF4420; /* Accent color */
 }
-
 /* Main Content - Card Layout */
 main {
   display: grid;
@@ -42,38 +36,31 @@ main {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   margin-bottom: 2rem;
 }
-
 main article {
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 1rem;
   transition: box-shadow 0.2s ease;
 }
-
 main article:hover {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
-
 main article h2 {
   margin-bottom: 0.25rem;
   font-size: 1.5rem;
 }
-
 main article a {
   text-decoration: none;
   color: #630031;
 }
-
 main article a:hover {
   color: #CF4420; /* Accent color on hover */
 }
-
 .post-meta {
   font-size: 0.9rem;
   color: #777777;
   margin-bottom: 0.5rem;
 }
-
 /* Footer */
 footer {
   margin-top: 2rem;
@@ -81,7 +68,6 @@ footer {
   font-size: 0.8rem;
   color: #777777;
 }
-
 /* ------------------------------------------
    DARK MODE OVERRIDES
    /* Dark mode overrides */
@@ -99,28 +85,23 @@ footer {
   background-color: #121212;
   color: #f0f0f0;
 }
-
 /* Dark mode: adjust card borders, text color, link color */
 .dark-mode main article {
   border-color: #444;
 }
-
 /* Overriding link colors in dark mode */
 .dark-mode header a,
 .dark-mode main article a {
   color: #f0f0f0; /* White or near-white links */
 }
-
 .dark-mode header a:hover,
 .dark-mode main article a:hover {
   color: #CF4420; /* Keep the accent color on hover if you like */
 }
-
 /* Adjust post meta color for contrast */
 .dark-mode .post-meta {
   color: #bbb;
 }
-
 /* Footer text color override */
 .dark-mode footer {
   color: #bbb;
