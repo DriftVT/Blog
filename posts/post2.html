@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DriftVT</title>
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+
+  <header>
+    <h1><a href="../index.html">DriftVT</a></h1>
+  </header>
+  <button id="dark-mode-toggle">Toggle Dark Mode</button>
+  
+  
+  <main>
+    <article>
+      <h2>ChatGPT o1 Model is Unreal</h2>
+      <p class="post-meta">December 30, 2024 • 2 min read</p>
+      <p>
+        <p>When I graduated from high school, I enrolled at Central Michigan University in Mt. Pleasant, Michigan, where I decided to major in Computer Science. In high school, I spent a lot of time on the computer—none of which was spent doing any sort of coding. As an only child, I played an excessive amount of video games to occupy my alone time.</p>
+        <br>
+        <p>Because I spent so much time playing video games, I naturally thought it would be a great idea to pursue computer science. I was terribly wrong. I hated it immediately. I was never good at math, and computer science felt like it was <em>all</em> math. To make matters worse, my professor had a hard time speaking English, and I struggled to understand his lectures. I met a classmate who gave me all the answers for the homework, but I still flunked the exams and scraped by with a C.</p>
+        <br>
+        <p>I called my dad and told him I wanted to change my major. Mind you, I was already on thin ice. I hadn’t been a great student in high school, and I had already failed to meet his expectation of attending a Big Ten school. The news that I wanted to drop computer science earned me a scolding, and I felt like an even bigger failure.</p>
+        <br>
+        <p>At the time, I was pledging a fraternity. One of the many benefits of fraternities is having access to upperclassmen who can offer advice. I turned to a few members in the business school, specifically two seniors majoring in Information Systems. This major was right up my alley: it involved technology but within the business school. That meant less coding, less math, and more courses focused on people skills—the one skill I felt confident in.</p>
+        <br>
+        <p>Fast forward 4.5 years, and I was graduating with a degree in Information Systems. My first job was at a mortgage company, and my role was titled "Scrum Master." Terrible job title, I know, but it was a people-oriented role within IT. It was the perfect fit for me: no math, no coding, and my people skills were on full display. Plus, my coworkers were nerds just like me, which made for easy conversations.</p>
+        <br>
+        <p>I’ve gotten a little sidetracked, but there’s a purpose behind this story. I never <em>could</em> code. I never even tried. Recently, I discovered the o1 model on ChatGPT, and it has completely changed my perspective on coding and what I can create. As of December 2024, the o1 model is the most powerful tool OpenAI has to offer. It actually <em>thinks.</em> Don’t believe me? Go try it yourself—it will blow you away.</p>
+        <br>
+        <p>I asked it to help me create a website, and it generated all the code in CSS and HTML, even outlining exactly how to structure the files. Additionally, it gave me step-by-step instructions on how to connect to GitHub, push updates, and publish my site using GitHub Pages. When I encountered issues setting things up, it easily troubleshot my problems and provided clear, actionable solutions.</p>
+        <br>
+        <p>But the most impressive thing about this model, aside from its ability to help you create virtually anything you can imagine, is how it delivers information in such an easy-to-understand way. I genuinely thought to myself, <em>"How did I never understand this before?"</em></p>
+        <br>
+        <p>Now, I find myself questioning all the things I thought I could never create but suddenly have the tools to bring to life. For example, I used to publish maps on X/Twitter plotting where every Virginia Tech recruit came from. It was essentially a heatmap showcasing recruiting hotspots around the country. To do that, I manually scraped 247’s website, figured out the coordinates of each player's hometown, and plotted everything in Tableau.</p>
+        <br>
+        <p>Now, I can create an entire application that automatically pulls data with hometowns and coordinates and then publishes interactive maps to a web location anyone can access. It has me <strong>GEEKED</strong>.</p>
+      </article>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 @DriftVT</p>
+  </footer>
+
+   <!-- Dark Mode Script -->
+   <script>
+    // On page load, read the storedDarkMode setting
+    const storedDarkMode = localStorage.getItem('darkMode');
+    if (storedDarkMode === 'true') {
+      document.body.classList.add('dark-mode');
+    }
+    // Get the toggle button
+    const darkModeToggle = document.getElementById('dark-mode-toggle');
+    // Attach click event
+    darkModeToggle.addEventListener('click', () => {
+      // Toggle the class
+      document.body.classList.toggle('dark-mode');
+      // Save the new preference
+      const isDarkModeOn = document.body.classList.contains('dark-mode');
+      localStorage.setItem('darkMode', isDarkModeOn);
+    });
+  </script>
+  
+</body>
+</html>
