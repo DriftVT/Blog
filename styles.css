@@ -61,6 +61,14 @@ main article a:hover {
   color: #777777;
   margin-bottom: 0.5rem;
 }
+/* Responsive Table Container */
+.table-container {
+  width: 100%;
+  overflow-x: auto; /* Enables horizontal scrolling */
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+  margin: 20px 0; /* Optional: Adds vertical spacing */
+}
+
 /* Styles table */
 .table {
   width: 100%; /* Makes the table span the full width of its container */
