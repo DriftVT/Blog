@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<rss version="2.0">
+  <channel>
+    <title>DriftVT Blog</title>
+    <link>https://driftvt.github.io/Blog/</link>
+    <description>Updates and posts from DriftVT.</description>
+    <item>
+      <title>purpose-of-this-blog</title>
+      <link>https://driftvt.github.io/Blog/posts/purpose-of-this-blog.html</link>
+      <description>Read the post: purpose-of-this-blog</description>
+      <pubDate>Fri, 10 Jan 2025 04:48:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>dukes-mayo-recap-2025</title>
+      <link>https://driftvt.github.io/Blog/posts/dukes-mayo-recap-2025.html</link>
+      <description>Read the post: dukes-mayo-recap-2025</description>
+      <pubDate>Fri, 10 Jan 2025 04:48:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>dukes-mayo-preview-2025</title>
+      <link>https://driftvt.github.io/Blog/posts/dukes-mayo-preview-2025.html</link>
+      <description>Read the post: dukes-mayo-preview-2025</description>
+      <pubDate>Fri, 10 Jan 2025 04:48:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>chatgpt-o1-model</title>
+      <link>https://driftvt.github.io/Blog/posts/chatgpt-o1-model.html</link>
+      <description>Read the post: chatgpt-o1-model</description>
+      <pubDate>Fri, 10 Jan 2025 04:48:43 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
